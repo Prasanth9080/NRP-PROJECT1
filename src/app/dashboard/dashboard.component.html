@@ -1,0 +1,290 @@
+
+<!-- <div style="
+ top: 0;
+display: flex;
+width: 100%;
+left: 0px;
+padding: 0px;
+background: whitesmoke;">
+
+    <div>
+      <button mat-icon-button (click)="toggleMenu()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>    
+    <div><h1 style="color: rgba(177, 143, 4, 1);padding-left: 10px;padding-top: 10px;height: 10px;"><b>Dashboard</b></h1>
+    <p style="font-size: 13px;color: gray;padding-left: 13px;padding-top: 13px;">Dashboard</p></div>
+    <div style="position: absolute;right: 100px;">
+        <img src="/assets/search.png" style="padding-right: 20px;margin-top: 20px;">
+        <img src="/assets/bell.png" style="padding-left: 15px;margin-right: 15px;margin-top: 20px;">
+        <span><img src="/assets/Logo Bust 2.png" style="height: 40px;padding-right: 10px;margin-top: 20px;"><b style="margin-top: 20px;color: black;">Logout</b></span>
+</div>
+</div> -->
+
+<div class="container-fluid g-0">
+  <div class="row" id="">
+    <div class="col-lg-12 p-0">
+      <div class="header_iner d-flex justify-content-between align-items-center">
+        <div class="sidebar_icon">
+          <i class="ti-menu"></i>
+          <!-- <a (click)="nav.toggle()" style="padding-top: 0px;"><mat-icon>menu</mat-icon></a> -->
+          <h1 style="margin-bottom: 0px;margin-left: 30px;color:rgba(177, 143, 4, 1);"><b>Dashboard</b></h1>
+          <h4 style="margin-left: 30px;color: gray;">Dashboard</h4>
+        </div>
+        <div class="header_right d-flex justify-content-between align-items-center">
+          <div class="header_notification_warp d-flex align-items-center">
+            <li>
+              <img src="/assets/search.png" style="margin-right: 20px;">
+            </li>
+            <li>
+              <img src="/assets/bell.png" style="margin-right: 20px;">
+              <div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </div>
+            </li>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="profile_thumb mr_20">
+              <img src="https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png" style="margin-right: 10px;height: 15px;width: 15px;">
+            </div>
+            <div>
+              <h3 style="margin-right: 20px;">LogOut</h3>
+            </div>
+            <div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="container text-left">
+    <div class="row">
+      <div class="col" style="margin-right: 30px;">
+       <h3>Date<span>*</span></h3>
+       <p class="date"><input type="date" class="calendar">Dec 16 2023 - <input type="date" class="calendar">Dec 16 2023</p>
+      </div>
+      <div class="col" style="margin-left: 15px;">
+        <h3>Project Code<span>*</span></h3>
+        <p class="id" style="padding-left: 10px;">lD101 <img src="/assets/Vector.png" style="padding-left: 40px;"></p>
+      </div>
+      <div class="col">
+        <h3>Project Master<span>*</span></h3>
+        <p class="id" style="padding-left: 10px;">Project Master<img src="/assets/Vector.png" style="padding-left: 40px;"></p>
+      </div>
+      <div class="col">
+        <h3>Activity<span>*</span></h3>
+        <p class="id" style="padding-left: 10px;">Activity<img src="/assets/Vector.png" style="padding-left: 40px;"></p>
+      </div>
+      <div class="col">
+        <h3>Description<span>*</span></h3>
+        <p class="id" style="padding-left: 10px;">Activity<img src="/assets/Vector.png" style="padding-left: 40px;"></p>
+      </div>
+      <div class="col">
+        <img src="/assets/Frame 67.png" style="padding-top: 20px;">
+      </div>
+    </div>
+  </div> -->
+
+
+  <div class="row g-3">
+    <div class="col-sm-2" style="margin-left: 20px;">
+      <label for="validationDefault01" class="form-label">Date</label>
+      <input type="text" class="form-control" id="validationDefault01" value="Dec 16 2021" required>
+    </div>
+    <div class="col-md-2" style="margin-left: 20px;">
+      <label for="validationDefault02" class="form-label">Project Code</label>
+      <select class="form-select" id="validationDefault04" required>
+        <option selected disabled value="">ID01</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2" style="margin-left: 20px;">
+      <label for="validationDefault02" class="form-label">Project Master</label>
+      <select class="form-select" id="validationDefault04" required>
+        <option selected disabled value="">Project Master</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2" style="margin-left: 20px;">
+      <label for="validationDefault02" class="form-label">Activity</label>
+      <select class="form-select" id="validationDefault04" required>
+        <option selected disabled value="">Activity</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2" style="margin-left: 20px;">
+      <label for="validationDefault02" class="form-label">Description</label>
+      <select class="form-select" id="validationDefault04" required>
+        <option selected disabled value="">Description</option>
+        <option>...</option>
+      </select>
+    </div>    
+    <div class="col">
+      <img src="/assets/Frame 67.png" style="padding-top: 20px;">
+    </div> 
+  </div>
+
+
+
+  <div class="container" style="margin-top: 10px;background-color: rgba(248, 248, 248, 1);border-radius: 5px;margin-left: 10px;width: 93.5%;">
+    <div>
+        <h3>Project Code</h3>
+        <p><b>10101010</b></p>
+    </div>
+  </div>
+
+
+  
+<div class="container" style="border: 2px solid gainsboro;margin-top: 20px;border-radius: 5px;margin-left: 20px;width: 100%;padding: 20px;">
+  <div class="row g-3" style="width: 100%;">
+    <h2 style="margin-bottom: 0px;"><b>Overall Statistics</b></h2>
+    <div class="col-sm-2" style="padding-left: 5px;width: 18%;">
+      <label for="validationDefault01" class="form-label">Today Date</label>
+      <input type="text" class="form-control" id="validationDefault01" value="10/08/2022-20/09/2023" required>
+      <!-- <option selected disabled value=""></option> -->
+      <!-- <option>...</option> -->
+    </div>
+    <div class="col-md-2" style="margin-left: 10px;width: 13%;">
+      <label for="validationDefault02" class="form-label">Engineers</label>
+      <input type="text" class="form-control" id="validationDefault01" value="" required>
+    </div>
+    <div class="col-md-2" style="margin-left: 10px;width: 15%;">
+      <label for="validationDefault02" class="form-label">Productivity %</label>
+      <input type="text" class="form-control" id="validationDefault01" value="" required>
+    </div>
+    <div class="col-md-2" style="margin-left: 10px;width: 15%;">
+      <label for="validationDefault02" class="form-label">Total Quantity</label>
+      <input type="text" class="form-control" id="validationDefault01" value="" required>
+    </div>
+    <div class="col-md-2" style="margin-left: 10px;width: 15%;">
+      <label for="validationDefault02" class="form-label">Actual Expense</label>
+      <input type="text" class="form-control" id="validationDefault01" value="" required>
+    </div>
+    <div class="col-md-2" style="margin-left: 10px;width: 15%;">
+      <label for="validationDefault02" class="form-label">Total Expenses</label>
+      <input type="text" class="form-control" id="validationDefault01" value="" required>
+    </div>
+
+</div>
+</div>
+
+  
+
+  
+<div style="padding-left: 10px;">
+  <div id="container"></div>
+</div>
+
+
+
+
+  <div class="row" style="margin-left: 0px;">
+  <div class="card" style="width: 25rem;margin-left: 10px;">
+    <div class="card-body">
+      <h3 class="card-title"><b>Tools & Tackles Report</b></h3>
+      <p style="padding-left: 10px;border: 0.1px solid black;border-radius: 5px;width: 120px;">Description<img src="/assets/Vector.png" style="padding-left: 20px;"></p>
+      <div style="display: flex;justify-content: space-between;">
+        <div>
+            <div><h5><b>Planned Qty</b></h5></div>
+            <div><b>25</b></div>
+        </div>
+        <div>
+            <div><h5><b>Planned Expense</b></h5></div>
+            <div><b>25</b></div>
+        </div>
+      </div>
+      <div style="display: flex;justify-content: space-between;">
+        <div>
+            <div><h5><b>Actual Qty</b></h5></div>
+            <div><b>25</b></div>
+        </div>
+        <div>
+            <div><h5><b>Actual Expense</b></h5></div>
+            <div><b>3500</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="card" style="width: 25rem;margin-left: 10px;">
+    <div class="card-body">
+      <h3 class="card-title"><b>Tools & Tackles Report</b></h3>
+      <p style="padding-left: 10px;border: 0.1px solid black;border-radius: 5px;width: 120px;">Description<img src="/assets/Vector.png" style="padding-left: 20px;"></p>
+      <div style="display: flex;justify-content: space-between;">
+        <div>
+            <div><h5><b>Planned Qty</b></h5></div>
+            <div><b>25</b></div>
+        </div>
+        <div>
+            <div><h5><b>Planned Expense</b></h5></div>
+            <div><b>25</b></div>
+        </div>
+      </div>
+      <div style="display: flex;justify-content: space-between;">
+        <div>
+            <div><h5><b>Actual Qty</b></h5></div>
+            <div><b>25</b></div>
+        </div>
+        <div>
+            <div><h5><b>Actual Expense</b></h5></div>
+            <div><b>3500</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="card" style="width: 25rem;margin-left: 10px;">
+    <div class="card-body">
+      <h3 class="card-title"><b>Tools & Tackles Report</b></h3>
+      <p style="padding-left: 10px;border: 0.1px solid black;border-radius: 5px;width: 120px;">Description<img src="/assets/Vector.png" style="padding-left: 20px;"></p>
+      <div style="display: flex;justify-content: space-between;">
+        <div>
+            <div><h5><b>Planned Qty</b></h5></div>
+            <div><b>25</b></div>
+        </div>
+        <div>
+            <div><h5><b>Planned Expense</b></h5></div>
+            <div><b>25</b></div>
+        </div>
+      </div>
+      <div style="display: flex;justify-content: space-between;">
+        <div>
+            <div><h5><b>Actual Qty</b></h5></div>
+            <div><b>25</b></div>
+        </div>
+        <div>
+            <div><h5><b>Actual Expense</b></h5></div>
+            <div><b>3500</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- <div class="charts">
+    <div class="line" [chart]="lineChart">
+
+    </div>
+    <div class="pie" [chart]="pieChart">
+
+    </div>
+</div> -->
+
+
+
+
